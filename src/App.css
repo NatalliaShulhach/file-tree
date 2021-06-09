@@ -1,0 +1,9 @@
+.header {
+  background: linear-gradient(45deg, #9890e3, #b1f4cf);
+  padding: 2rem;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}

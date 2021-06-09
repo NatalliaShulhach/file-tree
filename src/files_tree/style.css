@@ -1,0 +1,87 @@
+.container {
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+    
+.content {
+    min-height: 2rem;
+    margin-left: .5rem;
+    cursor: pointer;
+}
+
+li{
+    position: relative;
+    color: gray;
+    list-style-type: none;
+    padding-left: .5rem;
+    cursor: default;
+}
+
+.wrapperIconPluse, 
+.wrapperIconMinuse{
+    margin-right: .5rem;
+    justify-content: space-around;
+    vertical-align: middle;
+    background: linear-gradient(45deg, #9890e3, #b1f4cf);
+    width: 1rem;
+    height: 1rem;
+}
+
+.wrapperIconPluse span{
+display: block;
+font-size: 2rem;
+margin-left: -3px;
+margin-top: -18px;
+color: white; 
+}
+
+.wrapperIconMinuse span{
+    display: block;
+    font-size: 3rem;
+    margin-left: -2px;
+    margin-top: -30px;
+    color: white; 
+    }
+
+.iconCloseFolder,
+.iconOpenFolder{
+    display: inline-flex;
+    background-size: contain;
+    color: white;
+    width: 1rem;
+    height: 1rem;
+}
+
+.iconCloseFolder{
+    background-image: url(./assets/closed_folder.svg);
+    background-repeat: no-repeat;
+}
+
+.iconOpenFolder{
+    background-image: url(./assets/open_folder.svg);
+    background-repeat: no-repeat;
+}
+
+.wrapperFile{
+    margin-top: .5rem;
+    margin-left: 2.5rem;
+    display: flex;
+}
+
+.wrapperFolder{
+    margin-top: .5rem;
+    margin-left: 1rem;
+    display: flex;
+}
+
+.iconFile{
+    background-image: url(./assets/file.svg);
+    background-size: contain;
+    width: 1rem;
+    height: 1rem;
+}
+span {
+    margin-right: .5rem;
+    cursor: pointer;
+}
+ 
